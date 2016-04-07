@@ -32,6 +32,8 @@ We provide MATLAB code for total variation (TV) and SIDER methods. Both methods 
 -**SIDER vs. zero-filling and TV for acceleration factors x1, x2, x5, x7** The following videos correspond to estimated maps of mean alevolar length for (from left to right) zero-filling, TV and SIDER methods. 
 
         ZF        TV        SIDER
+![](https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI/blob/master/Label2.jpg)
+
 ![](https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI/blob/master/PatientCOPD_3_x1x2x5x7_ZF_TV_SIDER.gif)
 
 ##  Repository files ##
