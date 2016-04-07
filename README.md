@@ -17,9 +17,7 @@ We provide MATLAB code for total variation (TV) and SIDER methods. Both methods 
 
 ## Summary of results ##
 
--**SIDER for acceleration factor x7** The following videos correspond to estimated maps of mean alevolar length for fully sampled data (top) and for SIDER methods for an acceleration factor of x7 (bottom) for a control (left) and patient (right) data sets. To see videos for all data sets see the file ?.ppt
-
-**CONTROL         CONTROL               CONTROL             COPD              COPD                COPD**
+-**SIDER for acceleration factor x7** The following videos correspond to estimated maps of mean alevolar length for fully sampled data (top) and for SIDER method for an acceleration factor of x7 (bottom) for three controls and three COPD patients (from left to right).
 
 ![](https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI/blob/master/Label.jpg)
 ![](https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI/blob/master/Control_x1_x7_SIDER.gif)
