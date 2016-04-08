@@ -31,7 +31,7 @@ A demo file shows how to upload data, undersampled fully sampled data and to use
 ![](https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI/blob/master/PatientCOPD_2_x1_x7_SIDER.gif)
 ![](https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI/blob/master/PatientCOPD_3_x1_x7_SIDER.gif)
 
--**SIDER vs. zero-filling and TV for acceleration factors x1, x2, x5, x7** The following videos correspond to estimated maps of mean alevolar length for zero-filling, TV and SIDER methods for a control (top) and COPD patient (bottom). 
+-**SIDER vs. zero-filling and TV for several acceleration factors** The following videos show one slice of mean alevolar length estimated at different acceleration factors (x1, x2, x4, x7) for zero-filling, TV and SIDER methods for a control (top) and COPD patient (bottom). 
 
 ![](https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI/blob/master/Label2.jpg)
 
