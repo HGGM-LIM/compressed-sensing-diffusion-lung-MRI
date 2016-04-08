@@ -33,7 +33,7 @@ We provide MATLAB code for total variation (TV) and SIDER methods. Both methods 
 
 ![](https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI/blob/master/Label2.jpg)
 
-![](https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI/blob/master/PatientCOPD_3_x1x2x5x7_ZF_TV_SIDER.gif)
+    ![](https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI/blob/master/PatientCOPD_3_x1x2x5x7_ZF_TV_SIDER.gif)
 
 ##  Repository files ##
 
