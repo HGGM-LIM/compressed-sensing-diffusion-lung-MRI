@@ -1,6 +1,6 @@
 # compressed-sensing-diffusion-lung-MRI
 
-This repository contains data, code and results for a novel compressed sensing method presented in the paper **Incorporation of prior knowledge of the signal behavior into the reconstruction to accelerate the acquisition of MR diffusion data. JFPJ Abascal, J Parra-Robles, M Desco, (submitted for publication) 2016.** 
+This repository contains data, code and results for a novel compressed sensing method presented in the paper **Incorporation of prior knowledge of the signal behavior into the reconstruction to accelerate the acquisition of MR diffusion data. JFPJ Abascal, M Desco, J Parra-Robles, (submitted for publication) 2016.** 
 
 The proposed method incorporates the knowledge of the signal decay into the reconstruction (SIDER) to accelerate the acquisition of MR diffusion data by undersampling in both spatial and b-value dimensions. SIDER combines total variation (TV) with a penalty function that promotes sparsity across the b-direction as follows:                              
 
@@ -21,7 +21,7 @@ A demo file shows how to upload data, undersampled fully sampled data and to use
 
 ## Summary of results ##
 
--**SIDER for acceleration factor x7** The following videos correspond to estimated maps of mean alevolar length for fully sampled data (top) and for SIDER method for an acceleration factor of x7 (bottom) for three controls and three COPD patients (from left to right).
+-**SIDER for acceleration factor x7** The following videos correspond to estimated maps of mean alveolar length for fully sampled data (top) and for SIDER method for an acceleration factor of x7 (bottom) for three controls and three COPD patients (from left to right).
 
 ![](https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI/blob/master/Label.jpg)
 ![](https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI/blob/master/Control_x1_x7_SIDER.gif)
@@ -31,7 +31,7 @@ A demo file shows how to upload data, undersampled fully sampled data and to use
 ![](https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI/blob/master/PatientCOPD_2_x1_x7_SIDER.gif)
 ![](https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI/blob/master/PatientCOPD_3_x1_x7_SIDER.gif)
 
--**SIDER vs. zero-filling and TV for several acceleration factors** The following videos show one slice of mean alevolar length estimated at different acceleration factors (x1, x2, x4, x7) for zero-filling, TV and SIDER methods for a control (top) and COPD patient (bottom). 
+-**SIDER vs. zero-filling and TV for several acceleration factors** The following videos show one slice of mean alveolar length estimated at different acceleration factors (x1, x2, x4, x7) for zero-filling, TV and SIDER methods for a control (top) and COPD patient (bottom). 
 
 ![](https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI/blob/master/Label2.jpg)
 
