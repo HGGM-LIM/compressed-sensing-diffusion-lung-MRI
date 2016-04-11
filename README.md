@@ -49,8 +49,8 @@ The repository contains the following files:
 - **SIDER.m:** SIDER reconstruction method.
 
 - **TV.m:** TV reconstruction method.
- 
-- Data files will be uploaded ...
+
+- MATLAB code and data files will be uploaded ...
 
 ### Videos of results ###
 
