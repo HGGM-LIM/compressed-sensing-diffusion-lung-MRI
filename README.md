@@ -50,7 +50,7 @@ The repository contains the following files:
 
 - **TV.m:** TV reconstruction method.
 
-- MATLAB code and data files will be uploaded ...
+- Data files will be uploaded ...
 
 ### Videos of results ###
 
