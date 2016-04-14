@@ -75,8 +75,8 @@ close(h);
 % ESTIMATE D, alpha and Lm MAPS
 %
 % Ventilation images are filtered before the estimation (as images are very
-% noisy especially for large values of b)
-k       = fspecial('gaussian',3,1); % For patients (noisier)
+% noisy for patient data sets, especially for large values of b)
+k       = fspecial('gaussian',3,1); 
 h=figure;
 for ip = 1:N(3)
     uTargetSmooth(:,:,ip) = imfilter(uTarget(:,:,ip),k);
