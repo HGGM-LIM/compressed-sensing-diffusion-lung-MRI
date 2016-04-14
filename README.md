@@ -9,10 +9,9 @@ The proposed method incorporates the knowledge of the signal decay into the reco
 where Nabla is the spatial gradient, which leads to TV, F is the undersampled Fourier transform, u are the ventilation images, and M is an operator that encodes the relationship between ventilation images for consecutives values of b. This relationship can be approximated using a stretched exponential model 
 ![](https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI/blob/master/SIDER_equation_2.jpg)
 
-where D and alpha are estimated average values of diffusion (D) and heterogeneity index (alpha), respectively, which can be used to estimate the mean alveolar length (Lm). The following figure shows images of ventilation for a control and a patient (top right), the signal decay (top right) and estimated maps of D, alpha and Lm (bottom).  
+where D and alpha are estimated average values of diffusion and heterogeneity index, respectively, which can be used to estimate the mean alveolar length (Lm). The following figure shows images of ventilation for a control and a patient (top left), the signal decay (top right) and estimated maps of D, alpha and Lm (bottom).  
 
 ![](https://github.com/HGGM-LIM/compressed-sensing-diffusion-lung-MRI/blob/master/Image_ControlPatient_VentilationImage_D_D_alpha_Lm.jpg)
-
 
 ## Data 
 Methods are assessed using fully sampled diffusion datasets of three normal volunteers and three patients with COPD (n=8, two patients had two acquisitions at different sessions), available from earlier work [Parra-Robles et al., Proceedings of ISMRM 2012, 820; Parra-Robles et al., Proceedings of ISMRM 2014, 3529]. Data consisted of five slices (10 mm thick with 10 mm gap between slices), 64x64 resolution and 5 b-values (0, 1.6, 3.2, 4.8 and 6.4 s/cm2). 
@@ -53,7 +52,7 @@ The repository contains the following files:
 
 - **TV.m:** TV reconstruction method.
 
-- Data files will be uploaded ...
+- **DataControl.mat:** Data set for a control subject
 
 ### Videos of results ###
 
