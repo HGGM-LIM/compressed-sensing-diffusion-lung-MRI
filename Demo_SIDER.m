@@ -37,12 +37,12 @@ function Demo_SIDER
 
 % -------------------------------------------------------------------------
 % Load complex image
-load('datoscopd','b','compleximage');
+load('DataControl','b','uTarget');
 
 % Choose one slice
 zSlice      = 4;
 
-uTarget     = compleximage(:,:,1:5,zSlice); clear compleximage;
+uTarget     = uTarget(:,:,:,zSlice); 
 b           = b(1:5);
 N           = size(uTarget);
 
@@ -76,7 +76,7 @@ close(h);
 %
 % Ventilation images are filtered before the estimation (as images are very
 % noisy especially for large values of b)
-k       = fspecial('gaussian',3,1);
+k       = fspecial('gaussian',3,1); % For patients (noisier)
 h=figure;
 for ip = 1:N(3)
     uTargetSmooth(:,:,ip) = imfilter(uTarget(:,:,ip),k);
@@ -158,7 +158,6 @@ close(h);
 u_fft       = ifft2(dataAll);
 
 % Smooth ventilation images
-k       = fspecial('gaussian',3,1);
 for ip = 1:N(3)
     u_fft_s(:,:,ip) = imfilter(u_fft(:,:,ip),k);
 end
@@ -220,7 +219,6 @@ for ip = 1:N(3)
 end % ip
 
 % Smooth ventilation images
-k       = fspecial('gaussian',3,1);
 for ip = 1:N(3)
     u_tv_s(:,:,ip) = imfilter(u_tv(:,:,ip),k);
 end
@@ -275,7 +273,6 @@ beta    = 0.2;
 [u_t,err_t] = SIDER(Dest,Alphaest,b,dataAll,RAll,N(1:3),mu,lambda,gamma,alpha,beta,nBreg,mask,uTargetSmooth);
 
 % Smooth ventilation images
-k       = fspecial('gaussian',3,1);
 for ip = 1:N(3)
     u_t_s(:,:,ip) = imfilter(u_t(:,:,ip),k);
 end
