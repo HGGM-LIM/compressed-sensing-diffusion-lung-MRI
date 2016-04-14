@@ -80,4 +80,4 @@ The repository contains the following files:
 - **VideosSeveralAccelerationFactors.pptx** Same as previous video for all subjects
 
 
-If you need to contact the author, please do so at jmparra@hggm.es, juanabascal78@gmail.com, desco@hggm.es
+If you need to contact the author, please do so at juanabascal78@gmail.com, jmparra@hggm.es, desco@hggm.es
