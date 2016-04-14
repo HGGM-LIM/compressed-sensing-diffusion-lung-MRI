@@ -52,6 +52,12 @@ The repository contains the following files:
 
 - **TV.m:** TV reconstruction method.
 
+- **genPDF.m:** Function to generate a pdf with polynomial variable density sampling, by Michael Lustig 2007, downloaded from (SparseMRI V0.2), http://web.stanford.edu/~mlustig/SparseMRI.html, see M. Lustig, D.L
+
+- **genSampling_LIM.m:** Monte-carlo algorithm to generate a sampling pattern. Modified from the original function by Michael Lustig 2007
+
+- **maxSidePeakRatio.m:** Computes the maximum sidelobe to peak ratio of point spread function for undersampled data. Used within genSampling_LIM.m
+
 - **DataControl.mat:** Data set for a control subject
 
 ### Videos of results ###
@@ -72,3 +78,6 @@ The repository contains the following files:
 - **PatientCOPD_3_x1x2x5x7_ZF_TV_SIDER.gif** Same as previous video for a COPD patient. 
 
 - **VideosSeveralAccelerationFactors.pptx** Same as previous video for all subjects
+
+
+If you need to contact the author, please do so at jmparra@hggm.es, juanabascal78@gmail.com, desco@hggm.es
