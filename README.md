@@ -1,6 +1,6 @@
 # compressed-sensing-diffusion-lung-MRI
 
-This repository contains data, code and results for a novel compressed sensing method presented in the paper **Incorporation of prior knowledge of the signal behavior into the reconstruction to accelerate the acquisition of MR diffusion data. JFPJ Abascal, M Desco, J Parra-Robles, (submitted for publication) 2016.** 
+This repository contains data, code and results for a novel compressed sensing method presented in the paper **Incorporation of prior knowledge of the signal behavior into the reconstruction to accelerate the acquisition of MR diffusion data. JFPJ Abascal, M Desco, J Parra-Robles, (submitted for publication) 2017.** 
 
 The proposed method incorporates the knowledge of the signal decay into the reconstruction (SIDER) to accelerate the acquisition of MR diffusion data by undersampling in both spatial and b-value dimensions. SIDER combines total variation (TV) with a penalty function that promotes sparsity across the b-direction as follows:                              
 
